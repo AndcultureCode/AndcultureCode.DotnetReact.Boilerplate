@@ -14,9 +14,9 @@ notifications:
         rooms:
             secure: JWvIhzUKLQSeKlRPHC6uVIh9RJ4FXXtYRFzC7tvQqQqXEw1j/rTksFDHX63kpvQ1m3zQaP8sYmJQ8WvVU37MjrZ7o2FYEf4kibaPVxGFZebWJmP3GyqAvHT6SJmZ84dHcDSE8Sj0Z20Te07AGJad/TFQjDdV46kLKlqVKmbC6n4WHgQGD9ebTNugcCzQHBJmvQhUBgor5bbd4bNezd2USoqc3/IyT4rCok6pGdXGuZAI4DNLLULwjqS4IWA9BWEr88kXvnMXNzIcdrSMoMCmlcEJPzFR35wgjwcgNVHALw7RBBydeFQRCv+ZGl+Pd6FDO5LDfD1HqXa7QAGk6/H+o1UnjuLUFIL1zphO96uWvPlZ0QMgzP5LFBmf411LDPnCok70BFYpApJcBwLHCpq5kjY5YzOr/ahW0So/feOYAcx3WHc2dbWZUgqymOv7Pij33RyydLMrUVqCVTnHZd/Q5DNtEh6NayN2XUklDNfGIJLe89aMtIPlmQDZOsMU3MbTSixehM3O+aLLlOy9OkAhKUnfy56211BdDTlZB5BVxlH8MnSrKY4cSVvBPDKTFXJEzTWYlE+OPzC47ZtGGptrXIbmsgK3siiqf+0VxNxkfH7KoTztJ8qaTvbPpcsbtc9z9kBAgZgWISXMnAlsT5Md/wlcVapZuGhEDvCj5kUbTto=
 before_script:
-    - nvm install 8.16.2
-    - nvm use 8.16.2
-    - npm install && cd frontend && npm install && cd ../
+    - nvm install 14.15.4
+    - nvm use 14.15.4
+    - npm ci --no-optional && cd frontend && npm ci --no-optional && cd ../
     - npm install -g codecov
 script:
     - dotnet restore dotnet/api/Api.sln

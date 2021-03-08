@@ -58,21 +58,20 @@
         "@types/faker": "4.1.7",
         "@types/jest": "24.0.18",
         "@types/node": "12.7.5",
-        "@types/react": "16.9.11",
         "@types/react-beautiful-dnd": "12.1.2",
         "@types/react-dom": "16.9.3",
         "@types/react-router-dom": "5.1.2",
+        "@types/react": "16.9.11",
         "@types/rosie": "0.0.37",
-        "@types/storybook-react-router": "1.0.0",
         "@types/storybook__addon-info": "4.1.2",
         "@types/storybook__react": "4.0.2",
+        "@types/storybook-react-router": "1.0.0",
         "@types/uuid": "3.4.6",
         "andculturecode-javascript-testing": "0.0.2",
         "awesome-typescript-loader": "5.2.1",
         "babel-loader": "8.1.0",
         "babel-plugin-react-docgen": "3.1.0",
         "cross-env": "6.0.3",
-        "cypress": "3.8.3",
         "faker": "4.1.0",
         "immutable": "4.0.0-rc.12",
         "jest-extended": "0.11.2",
@@ -85,6 +84,9 @@
         "storybook-addon-smart-knobs": "5.0.0",
         "storybook-react-router": "1.0.8",
         "uuid": "3.3.3"
+    },
+    "optionalDependencies": {
+        "cypress": "6.6.0"
     },
     "eslintConfig": {
         "extends": "react-app"
