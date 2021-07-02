@@ -2,7 +2,7 @@
     "author": "andculture",
     "description": "Gravity Boots API and Frontend",
     "devDependencies": {
-        "and-cli": "2.7.2",
+        "and-cli": "2.8.0",
         "prettier": "1.19.1"
     },
     "homepage": "https://github.com/AndcultureCode/AndcultureCode.DotnetReact.Boilerplate#readme",
